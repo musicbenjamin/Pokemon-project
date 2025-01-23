@@ -109,6 +109,7 @@ export default {
   justify-content: center;
   z-index: 1000;
 }
+
 .modal-content {
   background: #ffffff;
   height: 371px;
@@ -206,7 +207,7 @@ export default {
   height: 371px;
 }
 
-.hp-xp{
+.hp-xp {
   display: flex;
   justify-content: space-between;
 }
