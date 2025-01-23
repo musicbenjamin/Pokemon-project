@@ -152,7 +152,7 @@ export default {
   margin: 0;
 }
 
-.abilities p{
+.abilities p {
   padding: 5px;
 }
 
