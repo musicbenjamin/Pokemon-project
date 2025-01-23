@@ -17,7 +17,7 @@
 .return-button {
   position: absolute;
   right: 50%;
-  top: 85%;
+  top: 90%;
   transform: translate(50%, -50%);
   width: 281px;
   height: 120px;

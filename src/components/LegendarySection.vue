@@ -249,13 +249,11 @@ hr {
   top: 0;
   width: 100%;
   height: 100%;
-  position: absolute;
   right: 50%;
   top: 40%;
   transform: translate(50%, -50%);
   min-width: 160px;
   min-height: 160px;
-
 }
 
 .carousel {
