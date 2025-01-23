@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://pokeapi.co/api/v2/', // Base API URL
-  timeout: 10000, // Optional: Set a timeout
+  baseURL: 'https://pokeapi.co/api/v2/',
+  timeout: 10000,
 });
 
 export default axiosInstance;

@@ -105,22 +105,14 @@ export default {
             const pokemon = res.data;
             const speciesResponse = await axios.get(pokemon.species.url);
             const generation = speciesResponse.data.generation.name;
-            const spAttack = pokemon.stats.find(
-              (stat) => stat.stat.name === "special-attack"
-            )?.base_stat;
-            const spDefense = pokemon.stats.find(
-              (stat) => stat.stat.name === "special-defense"
-            )?.base_stat;
+            const spAttack = pokemon.stats.find((stat) => stat.stat.name === "special-attack")?.base_stat;
+            const spDefense = pokemon.stats.find((stat) => stat.stat.name === "special-defense")?.base_stat;
             const highQualityImage = pokemon.sprites.other.dream_world.front_default || pokemon.sprites.front_default;
             return {
               name: pokemon.name,
               image: highQualityImage,
-              attack: pokemon.stats.find(
-                (stat) => stat.stat.name === "attack"
-              )?.base_stat,
-              defense: pokemon.stats.find(
-                (stat) => stat.stat.name === "defense"
-              )?.base_stat,
+              attack: pokemon.stats.find((stat) => stat.stat.name === "attack")?.base_stat,
+              defense: pokemon.stats.find((stat) => stat.stat.name === "defense")?.base_stat,
               hp: pokemon.stats.find((stat) => stat.stat.name === "hp")?.base_stat,
               experience: pokemon.base_experience,
               abilities: pokemon.abilities.map((ability) => ability.ability.name),
@@ -239,7 +231,7 @@ export default {
 <style scoped>
 
 .pokedex-container h1 {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .search-bar {
@@ -403,7 +395,8 @@ export default {
 }
 
 .pagination {
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .pagination button {
