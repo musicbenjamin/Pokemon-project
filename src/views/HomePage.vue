@@ -13,7 +13,7 @@
       <router-link to="/Pokedex" class="router-style"> <button class="return-button">See Pokemons</button> </router-link>
     </div>
     <div>
-      <img class="picture-pikachu" src="/src/assets/banner.png" alt="">
+      <img class="picture-pikachu" src="/src/assets/home-picture.png" alt="">
     </div>
   </div>
   <footer class="foot container">

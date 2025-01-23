@@ -238,6 +238,10 @@ export default {
 
 <style scoped>
 
+.pokedex-container h1 {
+  margin-top: 80px;
+}
+
 .search-bar {
   width: 1110px;
   background-color: rgb(241, 239, 239);
@@ -331,7 +335,6 @@ export default {
     font-weight: 400;
   }
 
-
 .pokedex-container span {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
@@ -348,7 +351,6 @@ export default {
   border-radius: 8px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .pokemon-card-description {

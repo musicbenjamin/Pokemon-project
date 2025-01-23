@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="navbar container">
-      <img src="../assets/Group.png" class="Pokemon" alt="Pokemon-Img" />
+      <img src="../assets/pokemon-logo.png" class="Pokemon" alt="Pokemon-Img" />
       <ul class="list-nav">
         <li><router-link to="/" class="router-style">Home</router-link></li>
         <li><router-link to="/Pokedex" class="router-style">Pokédex</router-link></li>
